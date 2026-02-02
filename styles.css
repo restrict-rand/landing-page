@@ -587,6 +587,23 @@ img {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.map-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.map-link:hover {
+    background: var(--accent-color);
+    color: var(--dark-bg);
 }
 
 /* --- FOOTER --- */
