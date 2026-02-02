@@ -577,6 +577,18 @@ img {
     margin-right: 1.5rem;
 }
 
+/* --- КАРТА --- */
+.map-section {
+    padding: 6rem 0;
+    background: #181818;
+}
+
+.map-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
 /* --- FOOTER --- */
 footer {
     padding: 2rem 0;
